@@ -1,0 +1,20 @@
+{
+  "name": "omnibus-defensive-framework",
+  "version": "1.0.0",
+  "description": "Production-ready defensive engineering framework for client-side state safety, input hygiene, and server-side ingestion security.",
+  "main": "src/client/security.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/client.test.js"
+  },
+  "keywords": [
+    "security",
+    "blueteam",
+    "prototype-pollution",
+    "sanitization",
+    "csp"
+  ],
+  "author": "CajaCl34r",
+  "license": "MIT",
+  "devDependencies": {}
+}
