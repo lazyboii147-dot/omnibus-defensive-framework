@@ -1,0 +1,10 @@
+#include <string>
+#include <algorithm>
+
+class HeaderParser {
+public:
+    std::string toLowerString(std::string str) {
+        std::transform(str.begin(), str.end(), str.begin(), ::tolower);
+        return str;
+    }
+};
